@@ -1,0 +1,3 @@
+routes:
+  - path: "/beerstyle"
+    allow_origin: ["https://beer-style.vercel.app"]
