@@ -1,6 +1,6 @@
 const app = require('../../app');
-const BeerStyleRouter = require('../routes/BeerStyleRouter');
+const EmailRouter = require('../routes/EmailRouter');
 
 module.exports = (app) => {
-    app.use(BeerStyleRouter);
+    app.use(EmailRouter);
 }

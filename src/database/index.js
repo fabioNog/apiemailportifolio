@@ -1,11 +1,11 @@
 const Sequelize = require('sequelize');
 const dbConfig = require('../config/database');
 
-const BeearStyleModel = require('../app/models/BeearStyleModel');
+const EmailStyleModel = require('../app/models/EmailStyleModel');
 
 const connection = new Sequelize(dbConfig);
 
-BeearStyleModel.init(connection);
+EmailStyleModel.init(connection);
 
 
 module.exports = connection;
