@@ -5,6 +5,7 @@ class EmailStyleModel extends Model {
         super.init({
             name: DataTypes.STRING,
             email: DataTypes.STRING,
+            menssage: DataTypes.STRING,
         }, {
             sequelize,
             tableName: 'Emails'
