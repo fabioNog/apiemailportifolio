@@ -1,7 +1,7 @@
 require('dotenv').config({
-    path: process.env.NODE_ENV === 'development' ? '.env' : '.env'
+    path: process.env.NODE_ENV === 'development' ? '.env.test' : '.env'
 });
-
+console.log(process.env.DB_DIALECT);
 module.exports = {
     dialect: process.env.DB_DIALECT,
     host: process.env.DB_HOST,

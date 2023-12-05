@@ -6,7 +6,7 @@
   "scripts": {
     "preprod": "npx sequelize db:migrate",
     "prod": "npx nodemon ./src/server",
-    "dev": "set NODE_ENV=development && npx nodemon ./src/server",
+    "dev": "NODE_ENV=development npx nodemon ./src/server",
     "test": "set NODE_ENV=development&&jest"
   },
   "keywords": [],
