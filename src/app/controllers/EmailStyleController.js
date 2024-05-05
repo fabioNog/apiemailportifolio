@@ -25,7 +25,7 @@ class EmailStyleController {
                 msg: 'Email inserido com sucesso!',
                 emailstyle: emailstyle
             });
-        }catch(erro){
+        }catch(error){
             console.log(erro)
             res.json({
                 msg: 'erro ao inserir a Email'
