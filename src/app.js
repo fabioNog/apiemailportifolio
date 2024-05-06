@@ -18,7 +18,7 @@ class App{
     middlewares(){
         this.express.use(express.json());
         this.express.use(cors({
-            origin: ['http://localhost:3000','https://fabionog.github.io/fabionogueira','https://fabionog.github.io/fabionogueira/']
+            origin: ['http://localhost:3000','https://fabionog.github.io/fabionogueira','https://fabionog.github.io/fabionogueira/','https://fabionog.github.io']
           }));
     }
 
